@@ -10,8 +10,5 @@ COPY requirements.txt.
 # Installe les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copie le reste du code
-COPY..
-
 # Définit la commande de démarrage
 CMD ["python", "main.py"]
